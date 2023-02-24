@@ -9,7 +9,6 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo Build in progress.'
-                sh 'PuriwatPutter'
             }
         }
         stage('Unit tests') {
@@ -35,7 +34,7 @@ pipeline {
     }
  post {
         always {
-            echo 'Cleanup after everything!'
+            echo 'Cleanup after editedit!'
         }
     }
 }
