@@ -9,7 +9,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo Build in progress.'
-                sh 'Puriwat Putter'
+                sh 'PuriwatPutter'
             }
         }
         stage('Unit tests') {
